@@ -1,0 +1,25 @@
+let string = '30 дней JavaScript';
+console.log(string.length);
+console.log(string.toUpperCase());
+console.log(string.toLowerCase());
+console.log(string.substring(0, 8));
+console.log(string.substring(3));
+console.log(string.includes('Script'));
+console.log(string.split(''));
+console.log(string.split(' '));
+console.log('Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'.split(','));
+
+console.log(string.replace('JavaScript', 'Python'));
+console.log(string.charAt(15));
+console.log(string.charCodeAt(10));
+console.log(string.indexOf('a'));
+console.log(string.lastIndexOf('a'));
+console.log('You cannot end a sentence with because because because is a conjunction'.indexOf('because'));
+console.log('You cannot end a sentence with because because because is a conjunction'.lastIndexOf('because'));
+console.log('You cannot end a sentence with because because because is a conjunction'.search('because'));
+console.log(string.trim(' 30 Days Of JavaScript '));
+console.log(string.startsWith('3'));
+console.log(string.endsWith('t'));
+console.log(string.matchAll('a'));
+console.log('30 Days of '.concat('JavaScript'));
+console.log(string.repeat(2));
